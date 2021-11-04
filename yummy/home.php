@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php
 <html>
     <head>
         <title>Yummy</title>
@@ -27,3 +28,4 @@
 
     </body>
 </html>
+?>

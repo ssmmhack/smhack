@@ -1,0 +1,23 @@
+#every{font-family: Georgia, 'Times New Roman', Times, serif; font-weight:bolder; font-size:90pt;color:rgb(221, 221, 36);
+     text-align: center; padding-top: 1cm; margin-top:0.5cm }
+#every:after{content:" ";background-image:url(food.gif); background-size:50pt 30pt;border-radius: 7pt;}
+#every:before{content:" ";background-image:url(food.gif); background-size:50pt 30pt;border-radius: 7pt;}
+#every:hover{text-shadow: 10pt 10pt 10pt rgb(72, 209, 175);}
+#login {width:100px; height:30px; ;float: right;}
+table {
+    border-radius: 25pt;
+    margin:auto; 
+    /* width: 66%; */
+    border: 1px solid
+}
+table img {
+    border-radius: 50pt;
+}
+body{
+    background-color:rgb(250, 240, 228);
+}
+table, td, th {
+    border-collapse : collapse;
+    border : none;
+    padding:30pt
+};

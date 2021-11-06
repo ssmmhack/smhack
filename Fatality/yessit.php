@@ -6,7 +6,7 @@
     <link rel ="stylesheet" href="sitstyle.css">
 </head>
 <body>
-    <h2>I want to sit</h2>
+    <h2>I have seated<br>And I wanna time to left</h2>
     
     <div class="btnlist">
         <ul>

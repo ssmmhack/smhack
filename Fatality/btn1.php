@@ -1,86 +1,59 @@
+<?php
+$list = array();
+$list = [];
+
+for($i=0; $i<32; $i++){
+    $list[] = 0;
+}
+?>
+
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Seat Booking</title>
+    <title>Train Seat Booking</title>
     <link rel="stylesheet" href="btn.css"/>
 </head>
 <body>
-    <div class="movie-container">
-        <label id="movie">
+    <div class="container">
+        <label id="train">
             1번칸
         </label>
     </div>
-
     <ul class = "showcase">
         <li>
-            <div class="seat"> </div>
+            <div class="grey"> </div>
             <small>no answer</small>
         </li>
-
         <li>
-            <div class="seat selected"> </div>
-            <small>yellow</small>
+            <div class="grey yellow"> </div>
+            <small>sit</small>
         </li>
-
         <li>
-            <div class="seat occupied"> </div>
-            <small>green</small>
+            <div class="grey red"> </div>
+            <small>leave</small>
         </li>
-
         <li>
-            <div class="seat go"> </div>
-            <small>red</small>
+            <div class="grey green"> </div>
+            <small>able</small>
         </li>
-
     </ul>
+    <div class="contianer">
+    <div class="screen"></div>
 
-    <div class="container">
-        <div class="screen"></div>
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <br><br><br>
-
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <div class="screen"></div>
+    <?php
+    $i =0;
+    while ($i < 32){
+        if ($i == 16){?>
+            <br><br><br> <?php
+        }
+        if ($list[$i] == 0){?>
+            <div class="grey"></div><?php
+        }
+        $i = $i+1;        
+    }
+    ?>
+    <br> <div class="screen"></div>
     </div>
     
-    <script src = "newbtnscript.js"></script>
-    
-
 </body>
 </html>

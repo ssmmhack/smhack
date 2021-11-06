@@ -1,63 +1,15 @@
+#every{font-weight:bolder; font-size:100pt;color:rgb(90, 146, 230); margin-bottom: 1cm;
+    text-align: center; padding-top: 1cm; margin-top:0.5cm;font-family: 'Nanum Pen Script', cursive;}
+#every:hover{text-shadow: 10pt 10pt 10pt lightblue;}
+#every:after{content:url(snow.png);}
+#every:before{content:url(snow.png); background-size:70%}
 
-        body {
-            margin: 0;
-        }
+#wantSeat{background-color: blueviolet; border:5pt ridge violet; border-radius: 20pt; text-align: center;
+color:aliceblue; width:170pt; font-size: 25pt; padding:15pt; display:inline }
 
-        a {
-            color: rgb(41, 2, 77);
-            text-decoration: none;
-        }
+#wantSeat:hover{border: thick solid red; width:300px;height: 300px; transition: width 4s;}
 
-        .saw {
-            color: gray;
-        }
+#back{border-radius: 50pt; background-color:hotpink; border:5pt ridge rgb(130, 238, 144);
+width: 300pt; margin:auto; padding-top: 30pt;padding-bottom:30pt; font-weight: bold; font-size:large}
 
-        #active {
-            color: red;
-        }
-
-        h1 {
-            font-size: 45px;
-            text-align: center;
-            border-bottom: 1px solid gray;
-            margin: 0;
-            padding: 20px;
-        }
-
-        ol {
-            border-right: 1px solid gray;
-            width: 85px;
-            margin: 0;
-            padding: 30px;
-        }
-
-        #grid {
-            display: grid;
-            grid-template-columns: 150px 1fr;
-        }
-
-        #grid ol {
-            padding-left: 33px;
-        }
-
-        #grid #article {
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-
-        @media(max-width:600px) {
-
-            /*800px보다 작은 경우*/
-            #grid {
-                display: block;
-            }
-
-            ol {
-                border-right: none;
-            }
-
-            h1 {
-                border-bottom: none;
-            }
-
-        }
+a{text-decoration: none;}

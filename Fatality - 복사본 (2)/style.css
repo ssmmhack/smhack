@@ -1,0 +1,15 @@
+#every{font-weight:bolder; font-size:100pt;color:rgb(90, 146, 230); margin-bottom: 1cm;
+    text-align: center; padding-top: 1cm; margin-top:0.5cm;font-family: 'Nanum Pen Script', cursive;}
+#every:hover{text-shadow: 10pt 10pt 10pt lightblue;}
+#every:after{content:url(snow.png);}
+#every:before{content:url(snow.png); background-size:70%}
+
+#wantSeat{background-color: blueviolet; border:5pt ridge violet; border-radius: 20pt; text-align: center;
+color:aliceblue; width:170pt; font-size: 25pt; padding:15pt; display:inline }
+
+#wantSeat:hover{border: thick solid red; width:300px;height: 300px; transition: width 4s;}
+
+#back{border-radius: 50pt; background-color:hotpink; border:5pt ridge rgb(130, 238, 144);
+width: 300pt; margin:auto; padding-top: 30pt;padding-bottom:30pt; font-weight: bold; font-size:large}
+
+a{text-decoration: none;}
